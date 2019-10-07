@@ -44,24 +44,7 @@ var menuJson = {
 	"home": true,
 	"noSession":"login.html",
 	"navigation":[
-		{"title":{"EN":"menu1","ES":"menu1"},"icon":"flaticon-cart","url":"",
-		 "submenu":[
-			{"title":{"EN":"submenu1","ES":"submenu1"},"icon":"flaticon-laptop","url":"index.html", "dashboard":{}},
-			{"title":{"EN":"submenu2","ES":"submenu2"},"icon":"flaticon-comment","url":"index.html", "dashboard":{}},
-			{"title":{"EN":"Dashboard 1","ES":"Dashboard"},"icon":"flaticon-calendar-1","url":"", "dashboard":{"src":"https://lab.onesaitplatform.com/controlpanel/dashboards/view/MASTER-Dashboard-3/","title":"Dashboard Example", "background": "", "height": "850px", "mode": "INSERT"}}
-		 ]
-		},
-		{"title":{"EN":"menu2","ES":"menu2"},"icon":"flaticon-calendar","url":"",
-		 "submenu":[
-			{"title":{"EN":"submenu21","ES":"submenu21"},"icon":"flaticon-laptop","url":"index.html", "dashboard":{}},
-			{"title":{"EN":"submenu22","ES":"submenu22"},"icon":"flaticon-comment","url":"index.html", "dashboard":{}},
-			{"title":{"EN":"Dashboard 3","ES":"Dashboard 3"},"icon":"flaticon-calendar-1","url":"", "dashboard":{"src":"https://lab.onesaitplatform.com/controlpanel/dashboards/view/MASTER-Dashboard-2/","title":"Dashboard Example", "background": "", "height": "850px", "mode": "INSERT"}}			
-		 ]
-		},
-		{"title":{"EN":"Management","ES":"Configuración"},"icon":"","url":"","submenu":[], "dashboard":{}},//separator url, src ""
-		{"title":{"EN":"Private Dashboard 2","ES":"Private Dashboard2"},"icon":"flaticon-laptop","url":"","submenu":[], "dashboard":{src:"https://lab.onesaitplatform.com/controlpanel/dashboards/view/MASTER-Dashboard-1/","title":"Dashboard Private Example 2", "background": "", "height": "850px", "mode": "INSERT"}},
-		{"title":{"EN":"menu 3","ES":"menu3"},"icon":"flaticon-layers","url":"index.html","submenu":[], "dashboard":{}},
-		{"title":{"EN":"Menu 4","ES":"Menu 4"},"icon":"flaticon-clipboard","url":"index.html","submenu":[], "dashboard":{}}
+		{"title":{"EN":"Exit","ES":"Salir"},"icon":"fa fa-arrow-circle-left","url":"login.html","submenu":[], "dashboard":{}}
 	]	
 };
 
@@ -211,8 +194,8 @@ var menuJson = {
 
 // FRONTEND MAIN CONFIGURATION
 var mainJson = {
-	"title": "onesait Platform | Dashboard",
-	"description": "onesait Platform Frontend Template",
+	"title": "Team Loggers | Dashboard",
+	"description": "onesait Platform Frontend Template used to show logs anomalies in the platfomr by 'Team Loggers' ",
 	"currentSkin": "skin-light",
 	"access":{
 		"urlBasePath": "",
@@ -225,7 +208,7 @@ var mainJson = {
 		"appLogo": "assets/app/media/img/logos/onesait.png",
 		"appLogoCss": "width: auto; max-height: 50px;",
 		"appLogoBackground": "background-color: #6ac7b1 !important",
-		"appHome": "onesait Platform Frontend",
+		"appHome": "Team Loggers - Frontend",
 		"appLoading": "",
 		"appFooter": true,
 		"appStickymenu": false,
@@ -269,15 +252,15 @@ var mainJson = {
 	"content": {
 		"contentHead": false,
 		"contentTools": true,
-		"contentTitle": "onesait Platform Community Dashboard",
+		"contentTitle": "Logs anomalies Dashboard",
 		"contentHeadCss": "",		
 		"contentTitleCss": "",		
 		"contentDashboard": {
 			"enabled": true,
-			"dashboardName": "OpenFlights Data dashboard",
+			"dashboardName": "Logs Dashboard",
 			"changeTitle": true,
 			"notification": false,
-			"src": "https://lab.onesaitplatform.com/controlpanel/dashboards/view/MASTER-Dashboard-2",
+			"src": "https://lab.onesaitplatform.com/controlpanel/dashboards/view/d1c1b310-88f6-486b-ba6f-764237eea744/",
 			"background": "#FFF",
 			"height": "875px",
 			"mode": "INSERT"
