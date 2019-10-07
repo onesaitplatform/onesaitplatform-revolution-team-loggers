@@ -1,20 +1,15 @@
-# onesaitplatform-webproject-template
-This repository contains a complete template in order to create your webproject integrated with plafform login and dashboards in a simple way
+<p align="center">
+  <img src='https://s1.significados.com/foto/triskel_sm.jpg'/>
+</p>
+ 
+# onesaitplatform-revolution-team-loggers
 
-##How yo use
-All configuration options on: assets/app/js/aplication-config.js
+## Integrantes
 
-In application config you can configure:
-- Application path
-- Application Access: PUBLIC (splash) or PRIVATE (login oauth)
-- Login
-- Application Index
-	> logo
-	> headers
-	> menu
-	> initial content (dashboards from console)
-	> footer
+* Adrián López De Lucas
+* Visquel De Los Santos
+* Juan Periscal Porteiro
 
-- Application Styles
+Mentor / guia
 
-Find details in our Developer Portal: http://bit.ly/2LJOUOC
+* Irene Alonso Crespo  
