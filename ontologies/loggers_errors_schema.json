@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "loggers_errors",
+    "type": "object",
+    "required": [
+        "loggers_errors"
+    ],
+    "properties": {
+        "loggers_errors": {
+            "type": "string",
+            "$ref": "#/datos"
+        }
+    },
+    "datos": {
+        "description": "Info loggers_errors",
+        "type": "object",
+        "properties": {
+            "timestamp": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "component": {
+                "type": "string"
+            },
+            "error": {
+                "type": "string"
+            }
+        }
+    },
+    "description": "loggers_errors",
+    "additionalProperties": true
+}

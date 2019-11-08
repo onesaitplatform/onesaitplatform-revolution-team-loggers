@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "loggers_severity",
+    "type": "object",
+    "required": [
+        "loggers_severity"
+    ],
+    "properties": {
+        "loggers_severity": {
+            "type": "string",
+            "$ref": "#/datos"
+        }
+    },
+    "datos": {
+        "description": "Info loggers_severity",
+        "type": "object",
+        "properties": {
+            "component": {
+                "type": "string"
+            },
+            "severity": {
+                "type": "string"
+            },
+            "timestamp": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "date": {
+                "type": "string"
+            },
+            "hour": {
+                "type": "string"
+            },
+            "counter": {
+                "type": "integer"
+            }
+        }
+    },
+    "description": "Severity counters",
+    "additionalProperties": true
+}
